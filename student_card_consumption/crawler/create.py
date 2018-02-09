@@ -56,5 +56,6 @@ def create_deals(studentlist):
                                     deal.student = student
                                     db.session.add(deal)
                                     db.session.commit()
-                    #print "add 1 student deal!"+str(student.id)
+                    with open("LOGFILE", "a") as f:
+                        f.write(str(student.id)+"\n")
 
