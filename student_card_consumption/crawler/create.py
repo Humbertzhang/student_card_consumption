@@ -57,5 +57,5 @@ def create_deals(studentlist):
                                     db.session.add(deal)
                                     db.session.commit()
                     with open("LOGFILE", "a") as f:
-                        f.write(str(student.id)+"\n")
+                        f.write(str(student.studentid)+"\n")
 

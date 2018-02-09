@@ -52,7 +52,7 @@ def add2015():
 @manager.command
 def add2016():
     #student2016=range(2016210001, 2016214643)
-    student2016=range(2016210870, 2016210871)
+    student2016=range(2016210400, 2016210700)
     studentlist = [student2016]
     #create.create_students(studentlist)
     print "-- create_student done! --"
